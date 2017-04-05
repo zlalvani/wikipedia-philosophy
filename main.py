@@ -18,13 +18,13 @@ def traverse(root, distance=0):
     arguments:
         distance:int (optional)
     '''
-    if root is not None:
-        root.distance = distance
 
-    distance += 1
+    if root is None:
+        return
+    root.distance = distance
 
     for child in root.children:
-        traverse(child, distance)
+        traverse(child, distance + 1)
 
 def generate_plot(nodes, starters, target):
     '''
