@@ -1,4 +1,5 @@
-### Wikipedia Philosophy Crawler
+# Wikipedia Philosophy Crawler
+###### By Zaran Lalvani
 
 This Python program will produce a distribution of how many clicks it takes to reach a given target article, assuming the first valid link on each article is clicked.
 
