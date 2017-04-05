@@ -28,7 +28,7 @@ def traverse(root, distance=0):
 
 def generate_plot(nodes, starters, target):
     '''
-    Generate and save a plot of the distribution.
+    Generate and save a plot of the distribution
 
     arguments:
         nodes: \{node_title:str : node:PageNode\}
